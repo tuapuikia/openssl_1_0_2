@@ -1,0 +1,7 @@
+libssl-doc_1.0.2f-0ubuntu3_all.deb doc optional
+openssl_1.0.2f-0ubuntu3_amd64.deb utils optional
+libssl1.0.0_1.0.2f-0ubuntu3_amd64.deb libs important
+libcrypto1.0.0-udeb_1.0.2f-0ubuntu3_amd64.udeb debian-installer optional
+libssl1.0.0-udeb_1.0.2f-0ubuntu3_amd64.udeb debian-installer optional
+libssl-dev_1.0.2f-0ubuntu3_amd64.deb libdevel optional
+libssl1.0.0-dbg_1.0.2f-0ubuntu3_amd64.deb debug extra
