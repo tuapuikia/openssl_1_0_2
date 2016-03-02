@@ -1,3 +1,9 @@
+openssl (1.0.2g-0ubuntu4) wily; urgency=medium
+
+  * Compile using OpenSSL 1.0.2g branch.
+
+ -- ytwong <ytwong@tuapui.cdngeonode.com>  Wed, 02 Mar 2016 10:36:55 +0800
+
 openssl (1.0.2f-0ubuntu3) wily; urgency=medium
 
   * Compile using OpenSSL 1.0.2f branch.

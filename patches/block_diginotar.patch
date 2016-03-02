@@ -22,9 +22,9 @@ Index: openssl-1.0.2/crypto/x509/x509_vfy.c
  
  static int get_crl_score(X509_STORE_CTX *ctx, X509 **pissuer,
                           unsigned int *preasons, X509_CRL *crl, X509 *x);
-@@ -438,6 +439,9 @@ int X509_verify_cert(X509_STORE_CTX *ctx
+@@ -489,6 +490,9 @@ int X509_verify_cert(X509_STORE_CTX *ctx
      if (!ok)
-         goto end;
+         goto err;
  
 +	ok = check_ca_blacklist(ctx);
 +	if(!ok) goto end;
