@@ -27,7 +27,7 @@ Index: openssl-1.0.2/crypto/x509/x509_vfy.c
          goto err;
  
 +	ok = check_ca_blacklist(ctx);
-+	if(!ok) goto end;
++	if(!ok) goto err;
 +
  #ifndef OPENSSL_NO_RFC3779
      /* RFC 3779 path validation, now that CRL check has been done */
