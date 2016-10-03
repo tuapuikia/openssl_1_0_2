@@ -1,3 +1,9 @@
+openssl (1.0.2j-0ubuntu6) wily; urgency=medium
+
+  * Compile using OpenSSL 1.0.2j branch.
+
+ -- ytwong <ubuntu@devbox>  Sat, 01 Oct 2016 01:41:42 +0800
+
 openssl (1.0.2h-0ubuntu5) wily; urgency=medium
 
   * Compile using OpenSSL 1.0.2h branch.
